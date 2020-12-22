@@ -1,2 +1,3 @@
 # TestingCausalitybetweenSmoking-SleepTrouble
-Applied logistic regression model with propensity score matching to determine whether smoking is a causal factor for sleep trouble
+
+To determine whether smoking is a causal factor for sleep trouble, a logistic regression model with propensity score matching is applied on the 2009-10 NHANES dataset focusing on respondents over 17 years of age. Confounding factors such as depression and demographic measures are controled using propensity score matching in creating a basis non-smoking respondent group and a comparitive smoking respondent group with similar pretreatment factors. After adjusting for differences in baseline risk factors and performing logistic regression, regular smoking behavior is concluded as a statistically significant factor in causing sleep trouble.
